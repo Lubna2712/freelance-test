@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "app.scss",
+        "_variables.scss",
+        "components/_hero.scss",
+        "components/_navbar.scss"
+    ],
+    "names": [],
+    "file": "app.css"
+}
