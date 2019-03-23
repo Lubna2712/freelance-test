@@ -1,5 +1,5 @@
 header{
-    background:url(./../../images/hero.jpg) no-repeat;
+    background:url(../assets/images/hero.jpg) no-repeat;
     background-size: cover;
     background-position: top;
     // background: linear-gradient(bottom right,red,orange);
@@ -10,7 +10,7 @@ header{
     }
     .hero-content{
         width:100%;
-        max-width: 470px;
+        max-width:fit-content;
         text-transform: uppercase;
         p{
             font-weight: 500;

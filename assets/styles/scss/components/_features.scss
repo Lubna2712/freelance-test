@@ -6,10 +6,12 @@
      .features-description{
        margin-bottom: 45px;
         h2{
-            font-size: 20px;
+            font-size: 26px;
+            font-weight: 600;
         }
         p{
-            font-size: 12px;
+            font-size: 16px;
+            font-weight: 600;
             text-transform: capitalize;
              color:#7f7f7f;
         
@@ -37,7 +39,7 @@
         p{
             margin-top: 15px;
             color:#7f7f7f;
-            font-size: 12px;
+            font-size: 14px;
         }
     }
 }
@@ -48,6 +50,7 @@
     color:$white;
     top:-20px;
     left:50%;
+    margin-left: -20px;
     height: 40px;
     width: 40px;
     display: flex;

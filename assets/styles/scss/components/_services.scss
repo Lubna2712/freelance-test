@@ -4,11 +4,13 @@
     .services-description{
        
         h2{
-            font-size: 20px;
+            font-size: 26px;
+            font-weight: 600;
         }
         p{
-            font-size: 12px;
+            font-size: 16px;
             color: grey;
+            font-weight: 600;
         }
     }
 }
@@ -26,33 +28,38 @@
     }
     
  i{
-    
     font-size: 25px;
-  
-    
 }
 }
 .card{
     border: none;
     background-color: transparent;
-    .btn-c-secondary{
-        background-color: $white;
-        color: $secondary;
-        font-size: 12px;
-        border: 1px solid grey;
-    }
-    .btn-c-primary{
+    .btn{
+        font-size: 10px;
+        &-c-secondary{
+            background-color: $white;
+            color: $secondary;
+            border: 1px solid grey;
+            &:hover{
+                background-color: $primary;
+                color: $white;
+            }
+        }
+        &-c-primary{
         background-color: $primary;
         color: $white;
-        font-size: 12px;
+        border: 1px solid $white;
+
+        }
     }
 }
 .card-body{
     h6{
         font-size: 14px;
+        font-weight: 600;
     }
     p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 @media (max-width : 450px ){
