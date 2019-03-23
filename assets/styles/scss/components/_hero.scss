@@ -1,8 +1,8 @@
 header{
-    // background:url(./../../images/hero.jpg) no-repeat;
-    // background-size: cover;
-    // background-position: center;
-    background: linear-gradient(bottom right,red,orange);
+    background:url(./../../images/hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    // background: linear-gradient(bottom right,red,orange);
     .jumbotron{
         background-color: transparent;
         min-height: 90vh;
@@ -75,7 +75,13 @@ header{
         }
 
 }}
-
+@media (max-width: 450px ){
+    header .hero-content .display-4 {
+        font-size: 18px;
+        top: -4px;
+        text-align: center;
+    }
+}
 
 
 

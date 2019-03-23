@@ -5,3 +5,13 @@
 .container{
     max-width: 70%;
 }
+h2 {
+    span{
+        color:$primary;
+    }
+}
+@media (max-width: 450px){
+    .container {
+    max-width: 87%;
+}
+}

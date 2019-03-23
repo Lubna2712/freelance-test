@@ -1,0 +1,26 @@
+.navbar{
+    
+    margin: 0px auto 0;
+    .navbar-brand{
+        text-transform: uppercase;
+    }
+    li{
+        font-size: 10px;
+        font-weight:700;
+        text-transform: uppercase;
+        margin:0 10px;
+        &.active{
+            background-color:$primary;
+            border-radius: 5px;
+            .nav-link{
+                color:$white !important;
+               
+            }
+        }
+        .nav-link .fa-search{
+            font-size: 14px;
+                    transform: rotate(90deg); 
+                    &:before{color:$primary !important;}               
+                }
+    }
+}
